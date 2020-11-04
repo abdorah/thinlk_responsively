@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-rows: auto auto auto auto auto;
+      grid-gap: 10px;
+      background-color: #2196F3;
+      padding: 10px;
+    }
+
+    .grid-container>div {
+      background-color: rgba(255, 255, 255, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+    }
+
+    .item8 {
+      grid-area: 2 / 1 / 4 / 7;
+      height: 3vmax;
+    }
+
+    .item1 {
+      grid-row: 1/2;
+      grid-column: 1/4;
+    }
+
+    .item2 {
+      grid-row: 1/2;
+      grid-column: 4/7;
+    }
+
+    .item7 {
+      grid-row: 4/5;
+      grid-column: 1/4;
+    }
+
+    .item9 {
+      grid-row: 4/5;
+      grid-column: 5/7;
+    }
+
+    .item13 {
+      grid-row: 4/6;
+      grid-column: 4/5;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="item1">1</div>
+    <div class="item2">2</div>
+    <div class="item7">7</div>
+    <div class="item8">8</div>
+    <div class="item9">9</div>
+    <div class="item10">10</div>
+    <div class="item11">11</div>
+    <div class="item12">12</div>
+    <div class="item13">13</div>
+    <div class="item14">14</div>
+    <div class="item15">15</div>
+  </div>
+
+</body>
+
+</html>
